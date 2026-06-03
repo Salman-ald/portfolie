@@ -1,0 +1,39 @@
+.hero-banner {
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
+  text-align: left;
+  margin: 0px;
+  background-image: url("../imgs/pc-forside2.png");
+  background-size: cover;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.grid2-1 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.padding-left {
+  padding-left: 140px;
+}
+
+.texthero1 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+.texthero2 {
+  font-size: 130px;
+  font-weight: 400;
+  color: white;
+}
