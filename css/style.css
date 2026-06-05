@@ -23,16 +23,19 @@ main {
 }
 
 header {
-  position: absolute;
   width: 100%;
+  background-color: #060d0c;
+  padding-right: 100px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
   gap: 100px;
-  padding-right: 200px;
-  padding-top: 50px;
+  padding: 40px;
   font-size: 16px;
   letter-spacing: 2px;
 }
@@ -52,4 +55,6 @@ header a {
   color: white;
   text-decoration: underline;
   text-underline-offset: 12px;
+  text-decoration-color: #77c99f;
+  text-decoration-thickness: 2px;
 }

@@ -37,3 +37,55 @@
   font-weight: 400;
   color: white;
 }
+
+.texthero3 {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  line-height: 2;
+  max-width: 70%;
+  font-weight: 300;
+}
+
+.btn1 {
+  padding: 20px 30px;
+  background-color: #77c99f;
+  color: #18201b;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 650;
+  border-radius: 4px;
+  margin-right: 24px;
+  transition: 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.btn1:hover {
+  background-color: #5aa67a;
+  box-shadow: 0 0 20px #5aa67a;
+  font-size: 18px;
+}
+
+.btn2 {
+  padding: 20px 30px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: 2px solid #5aa67a;
+  transition: 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: #18201b;
+  box-shadow: 0 0 20px #5aa67a;
+  font-size: 18px;
+}
+
+.margintop {
+  margin-top: 40px;
+}
