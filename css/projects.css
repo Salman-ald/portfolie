@@ -1,0 +1,115 @@
+main {
+  color: white;
+  padding: 50px;
+  margin: 0 20px;
+}
+
+body {
+  background-color: #202a24;
+}
+
+.grid3-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 35px;
+  margin-top: 50px;
+  padding: 0px;
+  color: white;
+}
+
+.grid3-1 img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-position: top;
+}
+
+.project {
+  background-color: #1a201b;
+  outline: 2px solid #323f36;
+  padding: 0px;
+  border-radius: 15px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.project:hover {
+  outline-color: #77c99f;
+  transform: scale(1.05);
+  -webkit-box-shadow: 0px 0px 36px 12px #77c99f;
+  -moz-box-shadow: 0px 0px 36px 12px #77c99f;
+  box-shadow: 0px 0px 36px 12px #77c99f;
+}
+
+.span2 {
+  grid-row: span 2;
+}
+
+.span2 img {
+  height: 520px;
+}
+.span2 .project {
+  height: 100%;
+}
+
+.span2 .boxinfo,
+.span2 .graytxt2,
+.span2 .gtext2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.boxinfo {
+  padding: 12px 35px;
+}
+
+.title {
+  margin: 0px;
+  margin-left: 0px;
+}
+
+.gtext {
+  color: #77c99f;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 100px;
+  letter-spacing: 5px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.graytxt {
+  color: rgb(166, 166, 166);
+  font-size: 20px;
+  padding: 20px 0px;
+  line-height: 1.5;
+}
+
+.graytxt2 {
+  color: rgb(166, 166, 166);
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 5px 0px;
+}
+
+.gtext2 {
+  color: #77c99f;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+h2 {
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
