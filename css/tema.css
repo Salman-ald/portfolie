@@ -1,0 +1,101 @@
+.grid1-1 {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+}
+
+.grid1-1 p {
+  color: white;
+  margin-left: 20px;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline img {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.icon-box {
+  border: 1px solid rgba(128, 128, 128, 0.483);
+  display: inline-block;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: 0.1s ease;
+}
+
+.icon-box:hover {
+  border: 1px solid #72c89b;
+}
+
+.border-top {
+  border-top: 1px solid rgba(131, 131, 131, 0.44);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.back {
+  color: white;
+  text-decoration: none;
+}
+
+.title1 {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: normal;
+}
+
+.green {
+  color: #77c99f !important;
+  display: inline;
+  margin-right: 5px;
+}
+
+.grid2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 100px;
+}
+
+.projectimg {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.image-container {
+  position: relative;
+}
+
+.projectbtn {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: #35895ed4;
+  color: white;
+  border: none;
+  padding: 20px 50px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.projectbtn:hover {
+  cursor: pointer;
+  background-color: #2a6d4ad4;
+  font-size: 22px;
+}
+
+.projectbtn img {
+  height: 20px;
+  margin-left: 40px;
+}
