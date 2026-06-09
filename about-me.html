@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolie forside</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/aboutme.css" />
     <meta name="robots" content="noindex" />
   </head>
 
@@ -16,18 +16,154 @@
           <img src="imgs/logo.png" alt="Logo" />
         </a>
       </div>
-      <nav>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="menu">
         <a href="index.html">FORSIDE</a>
         <a href="projects.html">MIT PORTFOLIE</a>
         <a href="about-me.html" class="header-active">OM MIG</a>
       </nav>
     </header>
+
+    <main class="about-page">
+      <section class="grid2-1">
+        <section class="left-column">
+          <h1>Lidt om mig</h1>
+
+          <p class="intro">
+            Jeg er studerende på Multimediedesign og interesserer mig for at skabe digitale løsninger, der kombinerer funktionalitet og design. Denne portfolio præsenterer et udvalg af mine projekter fra 1. semester og viser min arbejdsproces, mine
+            designvalg samt mine færdigheder inden for UX/UI-design og front-end udvikling.
+          </p>
+
+          <div>
+            <p class="gtext">MIN LÆRING PÅ 1. SEMESTER</p>
+
+            <div class="skills-list">
+              <p>✓ HTML & CSS</p>
+              <p>✓ PS & AI</p>
+              <p>✓ UX og brugertests</p>
+              <p>✓ Figma og prototyping</p>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="mobilecenter">
+              <h2>Uddannelse</h2>
+
+              <div class="timeline-item">
+                <h3>Multimediedesign</h3>
+                <p>KEA København</p>
+                <p>2026 - nuværende</p>
+              </div>
+
+              <div class="timeline-item">
+                <h3>Financial Controller</h3>
+                <p>CPH-Business</p>
+                <p>2020 - 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="mobilecenter">
+              <h2>Erfaring</h2>
+
+              <div class="timeline-item">
+                <h3>Visionejendomme (Controller)</h3>
+                <p>2022 - 2024</p>
+              </div>
+
+              <div class="timeline-item">
+                <h3>BK Union (SoMe)</h3>
+                <p>2021 - 2024</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Kompetencer</h2>
+
+            <div class="icons">
+              <div>
+                <img class="icon" src="imgs/icons/PS.png" alt="Photoshop ikon" />
+                <p>Photoshop</p>
+              </div>
+              <div>
+                <img class="icon" src="imgs/icons/AI.webp" alt="Illustrator ikon" />
+                <p>Illustrator</p>
+              </div>
+              <div>
+                <img class="icon" src="imgs/icons/figma.png" alt="Figma ikon" />
+                <p>Figma</p>
+              </div>
+              <div>
+                <img class="icon" src="imgs/icons/VS.png" alt="Visual Studio ikon" />
+                <p>Visual Studio</p>
+              </div>
+              <div>
+                <img class="icon" src="imgs/icons/SP.png" alt="Shopify ikon" />
+                <p>Shopify</p>
+              </div>
+              <div>
+                <img class="icon" src="imgs/icons/SV.png" alt="Sony Vegas ikon" />
+                <p>Sony Vegas</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right-column">
+          <div class="profile-card">
+            <img src="imgs/test2.png" alt="Salman" />
+
+            <div class="profile-info">
+              <h2>SALMAN AL-DAILEMI</h2>
+              <p class="green">MULTIMEDIEDESIGNER</p>
+
+              <div class="info-list">
+                <div>
+                  <img src="imgs/svgs/cap.svg" alt="Cap ikon" class="info-icon" />
+                  <p>1. semester</p>
+                </div>
+
+                <div>
+                  <img src="imgs/svgs/building.svg" alt="Building ikon" class="info-icon" />
+                  <p>Erhvervsakademiet København</p>
+                </div>
+
+                <div>
+                  <img src="imgs/svgs/location.svg" alt="Location ikon" class="info-icon" />
+                  <p>Lyngby, Danmark</p>
+                </div>
+
+                <div>
+                  <img src="imgs/svgs/mail.svg" alt="Mail ikon" class="info-icon" />
+                  <p>saal1001@stud.ek.dk</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <p class="ft1">Salman Al-Dailemi</p>
+        <p class="ft2">Multimediedesigner</p>
+      </div>
+      <p class="right">&copy; 2026 Salman Al-Dailemi. Alle rettigheder forbeholdes.</p>
+    </footer>
+    <script>
+      const burger = document.querySelector(".burger");
+      const menu = document.querySelector("nav");
+
+      burger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
   </body>
-  <footer class="footer">
-    <div>
-      <p class="ft1">Salman Al-Dailemi</p>
-      <p class="ft2">Multimediedesigner</p>
-    </div>
-    <p class="right">&copy; 2026 Salman Al-Dailemi. Alle rettigheder forbeholdes.</p>
-  </footer>
 </html>

@@ -3,6 +3,59 @@
   src: url("../fonts/montserrat.ttf") format("truetype");
 }
 
+@media (max-width: 768px) {
+  header {
+    position: relative;
+    padding: 20px;
+  }
+
+  .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    position: relative;
+    z-index: 20;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #060d0c;
+    padding: 20px;
+    z-index: 10;
+  }
+
+  header nav.active {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .burger {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+}
+
+.burger span {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,19 +71,10 @@ body {
 header {
   width: 100%;
   background-color: #060d0c;
-  padding-right: 100px;
-  padding-left: 30px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-nav {
-  display: flex;
-  gap: 100px;
-  padding: 40px;
-  font-size: 16px;
-  letter-spacing: 2px;
 }
 
 nav a:hover {
@@ -45,7 +89,7 @@ header a {
 }
 
 .header-active {
-  color: white;
+  color: #77c99f;
   text-decoration: underline;
   text-underline-offset: 12px;
   text-decoration-color: #77c99f;

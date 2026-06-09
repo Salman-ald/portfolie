@@ -1,0 +1,148 @@
+@media (min-width: 768px) {
+  .grid2-1 {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 80px;
+    align-items: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobilecenter {
+    text-align: center;
+  }
+}
+
+main {
+  color: white;
+  padding: 50px;
+  margin: 0 20px;
+}
+
+body {
+  background-color: #121c18;
+}
+
+.gtext {
+  color: #77c99f;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.about-page {
+  padding: 50px;
+  color: white;
+}
+
+.left-column h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.intro {
+  color: #cfcfcf;
+  line-height: 1.6;
+  max-width: 650px;
+  font-size: 1.2rem;
+}
+
+.section {
+  margin-top: 70px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(119, 201, 159, 0.2);
+  margin-bottom: 100px;
+}
+
+.section h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  color: #d0d0d0;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+}
+
+.timeline-item h3 {
+  margin-bottom: 5px;
+}
+
+.timeline-item p {
+  color: #b5b5b5;
+}
+
+.icon {
+  margin-top: 20px;
+  border: 1px solid rgba(119, 201, 159, 0.2);
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.icons img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.profile-card {
+  border: 1px solid rgba(119, 201, 159, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.profile-card img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.profile-info {
+  padding: 40px;
+}
+
+.profile-info h2 {
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: #77c99f;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.info-list img,
+.info-list p {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: inline;
+  vertical-align: middle;
+}
