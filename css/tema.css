@@ -145,6 +145,7 @@ section {
   letter-spacing: 2px;
   border-radius: 10px;
   transition: 0.3s ease;
+  text-decoration: none;
 }
 
 .projectbtn:hover {
